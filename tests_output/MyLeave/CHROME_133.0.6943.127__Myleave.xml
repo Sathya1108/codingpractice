@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="9"
+            failures="1"
+            tests="1">
+
+  <testsuite name="MyLeave.Myleave"
+    errors="9" failures="1" hostname="" id="" package="Myleave" skipped="0"
+    tests="1" time="7158" timestamp="">
+  
+    <testcase name="open chrome browser" classname="MyLeave.Myleave" time="3579" assertions="3">
+
+      <failure message="alert is present undefined - expected &#34;is &#39;undefined&#39;&#34; but got: &#34;Wait timed out after 5155ms&#34; (5163ms)"></failure>
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An error occurred while running .click() command on &lt;//input[@type=&#39;date&#39;]&gt;: Timed out while waiting for element &#34;//input[@type=&#39;date&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:20
+    ––––––––––––––––––––––––––––––––––––––––––
+     18 |    .pause(3000)
+     19 |    //click date
+     20 |    .click(&#34;//input[@type=&#39;date&#39;]&#34;) 
+     21 |    .pause(3000)
+     22 |    //mention date
+    ––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;//button[text()=&#39; Apply Leave&#39;]&gt;: Timed out while waiting for element &#34;//button[text()=&#39; Apply Leave&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:41
+    ––––––––––––––––––––––––––––––––––––––––––
+     39 |    .alerts.accept()
+     40 |    //apply sick leave 
+     41 |    .click(&#34;//button[text()=&#39; Apply Leave&#39;]&#34;) 
+     42 |    //.click(&#34;//button[text()=&#39; Apply Leave&#39;]&#34;)
+     43 |    .pause(3000)
+    ––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;//input[@type=&#39;date&#39;]&gt;: Timed out while waiting for element &#34;//input[@type=&#39;date&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:45
+    ––––––––––––––––––––––––––––––––––––––––––
+     43 |    .pause(3000)
+     44 |    //click date
+     45 |    .click(&#34;//input[@type=&#39;date&#39;]&#34;) 
+     46 |    //mention date
+     47 |    .setValue(&#34;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[1]&#34;,&#39;02-08-2025&#39;)
+    ––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[1]&gt;: Timed out while waiting for element &#34;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[1]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:47
+    ––––––––––––––––––––––––––––––––––––––––––
+     45 |    .click(&#34;//input[@type=&#39;date&#39;]&#34;)
+     46 |    //mention date
+     47 |    .setValue(&#34;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[1]&#34;,&#39;02-08-2025&#39;) 
+     48 |    .pause(3000)
+     49 |    .setValue(&#34;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[2]&#34;,&#39;02-09-2025&#39;)
+    ––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[2]&gt;: Timed out while waiting for element &#34;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[2]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:49
+    ––––––––––––––––––––––––––––––––––––––––––
+     47 |    .setValue(&#34;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[1]&#34;,&#39;02-08-2025&#39;)
+     48 |    .pause(3000)
+     49 |    .setValue(&#34;(//input[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;])[2]&#34;,&#39;02-09-2025&#39;) 
+     50 |    .pause(3000)
+     51 |     //select leave
+    ––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;//input[@placeholder=&#39;Select Leave Type&#39;]&gt;: Timed out while waiting for element &#34;//input[@placeholder=&#39;Select Leave Type&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:52
+    ––––––––––––––––––––––––––––––––––––––––––
+     50 |    .pause(3000)
+     51 |     //select leave
+     52 |    .click(&#34;//input[@placeholder=&#39;Select Leave Type&#39;]&#34;) 
+     53 |    .pause(3000)
+     54 |     //select sick leave
+    ––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;//li[text()=&#39;Sick Leave&#39;]&gt;: Timed out while waiting for element &#34;//li[text()=&#39;Sick Leave&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:55
+    ––––––––––––––––––––––––––––––––––––––––––
+     53 |    .pause(3000)
+     54 |     //select sick leave
+     55 |     .click(&#34;//li[text()=&#39;Sick Leave&#39;]&#34;) 
+     56 |    //send fever reason
+     57 |    .setValue(&#34;//textarea[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;]&#34;,&#39;Suffering from Stomach pain&#39;)
+    ––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;//textarea[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;]&gt;: Timed out while waiting for element &#34;//textarea[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:57
+    ––––––––––––––––––––––––––––––––––––––––––
+     55 |     .click(&#34;//li[text()=&#39;Sick Leave&#39;]&#34;)
+     56 |    //send fever reason
+     57 |    .setValue(&#34;//textarea[@class=&#39;w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary&#39;]&#34;,&#39;Suffering from Stomach pain&#39;) 
+     58 |    .pause(3000)
+     59 |    //click save
+    ––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;//button[text()=&#39;Apply Leave&#39;]&gt;: Timed out while waiting for element &#34;//button[text()=&#39;Apply Leave&#39;]&#34; with &#34;xpath&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\acer\Desktop\MyLeave\Myleave.js:60
+    ––––––––––––––––––––––––––––––––––––––––––
+     58 |    .pause(3000)
+     59 |    //click save
+     60 |    .click(&#34;//button[text()=&#39;Apply Leave&#39;]&#34;) 
+     61 |    .pause(3000)
+     62 |    .ensure.alertIsPresent() // Wait for the alert to be present
+    ––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
